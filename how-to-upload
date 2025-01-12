@@ -1,13 +1,21 @@
+--------------------------------------------------
+
 git init
 
 git add .
 
 git status
 
-git commit -m "(branch name)"
+git commit -m "adding files"
+
+git config --global user.email "janedoe@example.com"
+
+git config --global user.name "Jane Doe"
+
+git branch -M branchname
 
 git remote add origin https://github.com/yourusername/your-repo-name.git
 
-git pull origin master
+git push -u origin branchname
 
-git push origin master
+--------------------------------------------------
